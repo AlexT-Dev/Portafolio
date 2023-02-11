@@ -1,24 +1,25 @@
-//import logo from './logo.svg';
+// import logo from './logo.svg';
 import './personalstyle.css';
+import React from "react";
 import alex from './images/Alex.jpg';
 import fb from './images/fb.png';
 import gh from './images/gh.png';
 import ind from './images/in.png';
 
-
 function App() {
+  
   return (
-    <div>
-      <body class="body"> 
+    
+    <>
+    
     <header >
+    
       <div class="header">   
         <div>
-            <a href="#modalPersonal"><span title="Datos Personales"><img class="fotoPersonal" src={alex} alt="imagen personal"></img></span></a>  
+            <a href="#modalPersonal"><span title="Datos Personales"><img class="fotoPersonal" src={alex} alt="imagen personal"/></span></a>  
         </div>   
-        
-
          <nav>
-            <div>
+            <div class="div">
                <ul class="menu">
                  <li ><a href="">Inicio</a></li>
                  <li ><a href="AdminNivelEscolar.htm">Estudios</a></li>
@@ -33,30 +34,26 @@ function App() {
          </nav>
           <div>  
             <div>
-                <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank"><span title="Facebook"><img class="fotoReduce" src={fb} alt="facebook"></img></span></a>
+                <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank"><span title="Facebook"><img class="fotoReduce" src={fb} alt="facebook"/></span></a>
             </div>
             <div>
-                <a href="https://github.com/AlexT-Dev" target="_blank"><span title="Gut Hub"><img class="fotoReduce" src={gh} alt="GitHub"></img></span></a>
+                <a href="https://github.com/AlexT-Dev" target="_blank"><span title="Gut Hub"><img class="fotoReduce" src={gh} alt="GitHub"/></span></a>
             </div> 
               <div>
-                  <a href="https://www.linkedin.com/in/alejandro-t%C3%A9llez-aguilar-175b02214/" target="_blank"><span title="LinkedIn"><img class="fotoReduce" src={ind} alt="Indeed"></img></span></a> 
+                  <a href="https://www.linkedin.com/in/alejandro-t%C3%A9llez-aguilar-175b02214/" target="_blank"><span title="LinkedIn"><img class="fotoReduce" src={ind} alt="Indeed"/></span></a> 
             </div> 
           </div> 
       </div>
     </header>
     
-        
-     <footer class="fontfooter">
-        The best page of my life
-   </footer>   
-   
-  {/* <!-- Modal para datos de la fotografía ---> */}
+    <div class="body">
+    {/* <!-- Modal para datos de la fotografía ---> */}
      <div class="containerModal" id="modalPersonal">
       <div class="popup">
-         <div class="imagen"></div>
+         
           <div class="text-modal">
               <p class="encPersonales">DATOS PERSONALES</p>
-              <hr class="hrModal"></hr>
+              <hr class="hrModal"/>
               <form>
               <label class="encDato labelModal">Nombre:</label><p class="encDato pModal"> Alejandro Téllez Aguilar</p>
               <label class="encDato labelModal">Domicilio: </label><p class="encDato pModal"> Justo Sierra 221, Colima, Col., México, C. P. 28010</p>
@@ -69,10 +66,18 @@ function App() {
          <div><a href="#" class="btn-closeModal"><span title="Cerrar">✔</span></a></div>
       </div> 
      </div>
-   
-  </body>
+
     </div>
+    <footer class="fontfooter">
+        The best page of my life
+   </footer>  
+
+    </>
   );
 }
+
+
+
+   
 
 export default App;

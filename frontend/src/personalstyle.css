@@ -26,7 +26,8 @@
 .fontfooter{
     font-family: var(--font-style-footer);
     font-size: var(--font-size-footer);  
-    color: var(--font-color-menu);
+    color: var(--font-color-menu); 
+    
 }
 .titles {
     font-size: 30px;
@@ -48,7 +49,7 @@
 
 .menu li a{
     font-family: var(--font-style-menu); 
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     padding: 15px;
     color: var(--font-color-menu);
@@ -56,9 +57,11 @@
     
 }
 
+
 .menu li{
     display: inline-block;
     text-align: center;
+    align-items: flex-start
 }
 
 .menu li a:hover{
@@ -67,28 +70,36 @@
 
 
 /********* Header ******/
-
+.container{
+    background-image: url('./images/fondopersonal.jpg');
+    background-color: var(--back-color-header);
+    height:90vh;
+    width: 100svh;
+}
 .header {
     
     width: 100%;
     background-color: var(--back-color-header);
     text-align: center;
-    height: 160px;
+    
+    
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
-    top: 0; /* Posicionamos la cabecera pegada arriba */
+    top: 0; /*Posicionamos la cabecera pegada arriba */
     position: fixed;
     
 }
 
 .body{  
-    margin: 0;
-    padding: 0;
-    background-color:  transparent; 
-    margin-top: 160px;
-    background-image: url('./images/fondopersonal.jpg');
+    background-color: var(--back-color-header);
+    /* background-color:  transparent;  */
+   
+    
+   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
+
     
 }
 
@@ -260,7 +271,7 @@
 .fotoPersonal {
   border: 1px solid #ddd;
   border-radius: 10px;
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 10px;
   padding: 10px;
