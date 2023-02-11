@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Shadows+Into+Light&family=Splash&display=swap');
+
+/* 
+    Created on : 25/01/2021, 12:41:13 PM
+    Author     : Alejandro Téllez
+    Objective  : Creación de estilos CSS para usarse en el proyecto
+*/
+
+/* Variables Globales de Color de Fondo */
+
+:root {
+--back-color-header: #04293A; /* Warm de Google */
+/**** Fonts ****/
+--font-style-footer: 'Splash', cursive;
+--font-style-menu: 'Shadows Into Light', cursive;
+--font-style-modalPersonal: 'Oswald', sans-serif;
+--font-style-etiqueta: 'Alkalami', serif;;
+--font-style-contenido: 'Acme', sans-serif;
+--font-style-textarea: 'Fuzzy Bubbles', cursive;
+--font-size-footer: 20px;
+--font-color-menu: white;
+--back-color-grid-data: #1746A2;
+
+}
+
+.fontfooter{
+    font-family: var(--font-style-footer);
+    font-size: var(--font-size-footer);  
+    color: var(--font-color-menu);
+}
+.titles {
+    font-size: 30px;
+    color: blue;
+}
+
+/************ Formato de menu ******************/
+
+
+.menu ul {
+    
+    list-style: none;
+    width: 90%;
+    max-width: 1000px;
+    max-height: 300px;
+    margin: auto;
+    
+}
+
+.menu li a{
+    font-family: var(--font-style-menu); 
+    font-size: 25px;
+    text-decoration: none;
+    padding: 15px;
+    color: var(--font-color-menu);
+    display: block;
+    
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #CC9544;
+}
+
+
+/********* Header ******/
+
+.header {
+    
+    width: 100%;
+    background-color: var(--back-color-header);
+    text-align: center;
+    height: 160px;
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    position: fixed;
+    
+}
+
+.body{  
+    margin: 0;
+    padding: 0;
+    background-color:  transparent; 
+    margin-top: 160px;
+    background-image: url('./images/fondopersonal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/******** Contenedor de Registros con table *********/
+
+.fijar-div {
+    background-color:#c7c7c7;
+     opacity: 0.8;
+      max-width: 95%;
+     margin: auto;
+     position: fixed;
+ }
+
+ .fijar-navega {
+    background-color:#c7c7c7;
+     opacity: 0.8;
+ }
+ 
+.tabla{
+    
+    
+    width: 1200px;
+    
+    margin: auto;
+   
+    /*padding: 10px;*/
+    align-items: center;
+    
+    
+    border-collapse: separate;
+    border: 2px solid;
+}
+
+/* .tabla-thead{
+    
+    
+} */
+
+.tabla-tr{
+    
+    color: wheat;
+}
+
+.tabla-th {
+    
+    top: 0px;
+      
+}
+
+.tbody{
+   top: 10px;
+}
+.tabla-td{
+    
+    
+    display: grid;
+    background: var(--back-color-header);
+    border: 1px solid;
+    border-color: #CC9544;
+    opacity: 0.8;
+    transition: all 800ms;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px burlywood;
+}
+
+.tabla-td .p {
+    color: #CC9544;
+    font-family: var(--font-style-menu);
+    font:bold;
+    line-height: 1px;
+    margin-left: 10px;
+ }
+ 
+ 
+
+/******** Contenedor de Registros con li *********/
+
+.etiquetas-contenedor {
+   
+   position: absolute;
+   display: grid;
+    
+}
+
+.fijar-etiquetas{
+   position: sticky;
+    top: 171px;
+    
+}
+
+
+.etiquetas-gral{ 
+    
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 15px;
+    
+    background: var(--back-color-header);
+    border: 1px solid;
+    border-color: #CC9544;
+    opacity: 0.8;
+    transition: all 800ms;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 3px burlywood;
+    display: block;
+    
+   
+}
+
+.etiquetas-gral .p {
+    color: #CC9544;
+    font-family: var(--font-style-contenido);
+    font:bold;
+    line-height: 1px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.etiquetas-gral .label {
+    color: #CC9544;
+    font-family: var(--font-style-etiqueta);
+    font:bold;
+    line-height: 1px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+
+.etiquetas-gral .textarea {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    min-width: 1180px;
+    max-width: 1180px;
+    overflow: hidden;
+    height: 160px;
+    color: #CC9544;
+    font-family: var(--font-style-textarea);
+    font-size: 15px;
+    resize:none;
+    
+}
+
+
+.doc-recibido{
+    text-align: right;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    
+}
+
+.doc-recibido .p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.etiqueta { /* Para espcios entre etiquetas de datos*/
+    display:grid;
+    
+    margin-top: 10px;
+    
+}
+
+/******** Para imagenes  *********/
+
+.fotoPersonal {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  height: 120px;
+  
+}
+
+.fotoReduce {
+/*  border: 1px solid #ddd;*/
+  border-radius: 10px;
+  width: 20px;
+  float: right;
+  margin: 5px;
+  padding: 2px;
+  height: 20px;
+  
+}
+
+.fotoPersonal:hover {
+  box-shadow: 0 0 4px 3px burlywood;
+}
+
+.fotoReduce:hover {
+  box-shadow: 0 0 4px 3px burlywood;
+}
+
+
+/*************** Para modals *****/
+
+.containerModal {
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+
+.popup {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+.containerModal:target{ /* Cuando tenga el focus */
+    visibility: visible;
+    opacity: 0.9;
+    background: #CC9544;
+    transition: all 700ms;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 5px 1px #205375;
+    
+    
+}
+
+.text-modal {
+    width: 80%;
+    padding-top: 50px;
+    margin: 10px;
+    overflow-y: auto;
+    justify-content: space-between;
+    
+   
+}
+
+.btn-closeModal{
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    right: -5px;
+    top: 60px;
+    padding: 10px;
+        padding-left: 10px;
+    background: #205375;
+    color: white;
+    border-radius: 30%;
+/*    line-height: 10px;*/
+    text-decoration: none;
+    
+}
+.btn-closeModal:hover{
+    box-shadow: 0 0 4px 3px black;
+}
+
+.encPersonales{
+    color: white;
+    font-family: var(--font-style-modalPersonal);
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+
+.encDato{
+    color: black;
+    font-family: var(--font-style-modalPersonal);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pModal{
+    color: #001D6E;
+}
+.labelModal {
+    float: left;
+    width: 100px;
+    padding-left: 24px;
+    margin-bottom: 2px;
+}
+
+
+.hrModal {
+  height: 2px;
+/*  margin-left: 0%;
+  margin-right: 50%;*/
+ margin-top: 2px;
+  background-color: var(--back-color-header);
+
+}
+
+
+
+
+
+/* Para grid citas modal */
+#grid-citas {
+  display: grid;
+  /* height: 100px; Para en caso de que sea fijo*/ 
+  grid-template-columns: 300px;
+  grid-template-rows: 50px 50px;
+}
+
+/* Para grid encabezados */
+#grid-encabezados {
+  display: grid;
+  /* height: 100px; Para en caso de que sea fijo*/ 
+  grid-template-columns: 1000px 500px;
+  grid-template-rows: 40px;
+}
+
+/* Para grid normal */
+#grid {
+  display: grid;
+  /* height: 100px; Para en caso de que sea fijo*/ 
+  grid-template-columns: 1000px 500px;
+  grid-template-rows: 30px;
+}
+
+/* Para grid grandes */
+.grid-large {
+  display: grid;
+  height: 70%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 500px 1000px; /* 2 columnas de 500px y */
+  grid-template-rows: 400px;          /* una fila de 400px*/
+}
+
+/* Para grid historial */
+#grid-historial {
+  display: grid;
+  height: 70%;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 300px 650px 549px; /* 3 columnas  y */
+  grid-template-rows: 380px;        /* 1 fila*/
+}
+.table-fixed thead,
+.table-fixed tfoot{
+  width: 100%;
+}
+
+.table-fixed tbody {
+  /*height: 400px; Para todos del mismo tamaño*/
+  overflow-y: auto;
+  width: 100%;
+}
+
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tfoot,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+  display: block;
+}
+
+.table-striped,
+.table-fixed tbody td,
+.table-fixed thead > tr> th,
+.table-fixed tfoot > tr> td{
+  float: left;
+  border-bottom-width: 0;
+  
+}
+
+
+/*  ESTILOS DE BARRA LATERAL  */
+
+
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: rgba(0,0,0,0.6);
+		z-index: -1;
+		top: 0;left: 0;
+	}
+	/*Estilos para el encabezado*/
+/*	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}*/
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+	/*Menù lateral*/
+	#btn-menu{
+		display: none;
+	}
+	.container-menu{
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		width: 100%;
+		height: 100vh;
+		top: 0;left: 0;
+		transition: all 500ms ease;
+		opacity: 0;
+		visibility: hidden;
+	}
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #1c1c1c;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #c7c7c7;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #c7c7c7;
+		background: #1f1f1f;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	/*Fin de Menù lateral*/
