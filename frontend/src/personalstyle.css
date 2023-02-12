@@ -40,9 +40,8 @@
 .menu ul {
     
     list-style: none;
-    width: 90%;
-    max-width: 1000px;
-    max-height: 300px;
+    width: 60%;
+   
     margin: auto;
     
 }
@@ -51,11 +50,28 @@
     font-family: var(--font-style-menu); 
     font-size: 18px;
     text-decoration: none;
-    padding: 15px;
+    padding: 5px;
     color: var(--font-color-menu);
     display: block;
     
 }
+.menu li a:hover{
+    background: #CC9544;
+    border-radius:10px 5px 50px;
+    padding: 5px;
+    
+}
+
+/* Para datos debajo de opciones */
+
+.parrafo-cabecera {
+    background-color: var(--back-color-header);
+    color: #CC9544;
+    text-align: left;
+    font-family: var(--font-style-modalPersonal);
+    font-weight: bold;
+}
+
 
 
 .menu li{
@@ -64,17 +80,14 @@
     align-items: flex-start
 }
 
-.menu li a:hover{
-    background: #CC9544;
-}
+
 
 
 /********* Header ******/
 .container{
     background-image: url('./images/fondopersonal.jpg');
     background-color: var(--back-color-header);
-    height:90vh;
-    width: 100svh;
+    
 }
 .header {
     
@@ -89,18 +102,14 @@
     
 }
 
+
 .body{  
     background-color: var(--back-color-header);
     /* background-color:  transparent;  */
-   
-    
-   
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
-
-    
+   
 }
 
 /******** Contenedor de Registros con table *********/

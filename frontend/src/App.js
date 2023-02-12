@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+// import logo from './images/fondopersonal.svg';
 import './personalstyle.css';
 import React from "react";
 import alex from './images/Alex.jpg';
@@ -19,19 +19,22 @@ function App() {
             <a href="#modalPersonal"><span title="Datos Personales"><img class="fotoPersonal" src={alex} alt="imagen personal"/></span></a>  
         </div>   
          <nav>
-            <div class="div">
+            <div >
                <ul class="menu">
                  <li ><a href="">Inicio</a></li>
-                 <li ><a href="AdminNivelEscolar.htm">Estudios</a></li>
-                 <li ><a href="AdminJobs.htm">Empleos</a></li>
-                 <li ><a href="AdminCrosscutting.htm" >Transversales </a></li>
-                 <li ><a href="AdminKnowledge.htm">Conocimientos</a></li>
-                 <li ><a href="AdminProjects.htm">Proyectos</a></li> 
+                 <li ><a href="AdminNivelEscolar.html">Estudios</a></li>
+                 <li ><a href="AdminJobs.html">Empleos</a></li>
+                 <li ><a href="AdminCrosscutting.html" >Transversales </a></li>
+                 <li ><a href="AdminKnowledge.html">Conocimientos</a></li>
+                 <li ><a href="AdminProjects.html">Proyectos</a></li> 
                  <li ><a href="#">Comunidad</a></li>
-                 <li ><a href="AcercaDe.htm">Acerca de...</a></li> 
+                 <li ><a href="AcercaDe.html">Acerca de...</a></li> 
                </ul>
             </div>
          </nav>
+         <div>
+          <p class="parrafo-cabecera">Desarrollo WEB | Aplicaciones de Escritorio | Java EE | Back-End Dev. | HTML | CSS | JavaScript | React | Node js | Herramientas Office</p>
+         </div>
           <div>  
             <div>
                 <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank"><span title="Facebook"><img class="fotoReduce" src={fb} alt="facebook"/></span></a>
@@ -45,7 +48,7 @@ function App() {
           </div> 
       </div>
     </header>
-    
+   
     <div class="body">
     {/* <!-- Modal para datos de la fotografía ---> */}
      <div class="containerModal" id="modalPersonal">
