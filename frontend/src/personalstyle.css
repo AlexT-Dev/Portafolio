@@ -64,7 +64,7 @@
 
 /* Para datos debajo de opciones */
 
-.parrafo-cabecera {
+.parrafoCabecera {
     background-color: var(--back-color-header);
     color: #CC9544;
     text-align: left;
@@ -89,6 +89,12 @@
     background-color: var(--back-color-header);
     
 }
+.imgEnc {
+    width: 100%;
+    left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /*Posicionamos la cabecera pegada arriba */
+    position: fixed;
+}
 .header {
     
     width: 100%;
@@ -102,13 +108,31 @@
     
 }
 
+.containerCabecera{
+    
+    background-color: var(--back-color-header);
+    display: flex;
+    text-align: left;
+}
+
+.iconosSociales{
+    
+    background-color: var(--back-color-header);
+    display: inline-flex;
+    
+    text-align: right;
+    
+    margin-left: 300px;
+    margin-top: 10px;
+}
 
 .body{  
     background-color: var(--back-color-header);
     /* background-color:  transparent;  */
+    background-image: url('./images/fondopersonal.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: cover; */
    
 }
 
@@ -345,7 +369,7 @@
     
 }
 
-.text-modal {
+.textModal {
     width: 80%;
     padding-top: 50px;
     margin: 10px;
@@ -355,7 +379,7 @@
    
 }
 
-.btn-closeModal{
+.btncloseModal{
     width: 15px;
     height: 20px;
     position: absolute;
