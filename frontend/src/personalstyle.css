@@ -14,7 +14,7 @@
 --font-style-footer: 'Splash', cursive;
 --font-style-menu: 'Shadows Into Light', cursive;
 --font-style-modalPersonal: 'Oswald', sans-serif;
---font-style-etiqueta: 'Alkalami', serif;;
+--font-style-etiqueta: 'Alkalami', serif;
 --font-style-contenido: 'Acme', sans-serif;
 --font-style-textarea: 'Fuzzy Bubbles', cursive;
 --font-size-footer: 20px;
@@ -40,9 +40,9 @@
 .menu ul {
     
     list-style: none;
-    width: 60%;
-   
-    margin: auto;
+    /* width: 50%; */
+    margin: 5px;
+    /* margin: auto; */
     
 }
 
@@ -98,13 +98,14 @@
 .header {
     
     width: 100%;
+    height: 169px;
     background-color: var(--back-color-header);
     text-align: center;
     
     
-    left: 0; /* Posicionamos la cabecera al lado izquierdo */
-    top: 0; /*Posicionamos la cabecera pegada arriba */
-    position: fixed;
+    left: 0px; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0px; /*Posicionamos la cabecera pegada arriba */
+    /* position: fixed; */
     
 }
 
@@ -126,14 +127,68 @@
     margin-top: 10px;
 }
 
-.body{  
+.body{
+    /* max-width: 100%;
+    margin-left: 0px;
+    padding: 0px;
+    /* margin-top: 170px; 
+    color: var(--font-color-menu);  */
     background-color: var(--back-color-header);
-    /* background-color:  transparent;  */
-    background-image: url('./images/fondopersonal.jpg');
+    /* background-color:  transparent;  
+    background-image: url('./images/fondopersonal.jpg'); */
+    /* box-shadow: 0 0 4px 3px burlywood; */
     background-repeat: no-repeat;
-    /* background-attachment: fixed;
-    background-size: cover; */
+    /* background-attachment: fixed; */
+    background-size: cover;
    
+}
+
+#root {
+    background-color: var(--back-color-header);
+    background-image: url('./images/fondopersonal.jpg'); 
+    margin: 0px;
+}
+
+/************* Para Secciones ********************************/
+
+.sec {
+    background-color: var(--back-color-header);
+    box-shadow: 0 0 4px 3px burlywood;
+    transition: all 800ms;
+    /* transform: translate(50%, 50%);  */
+    
+    opacity: 0.9;
+}
+
+.sec h1 {
+   font-family: var(--font-style-etiqueta);
+   font-size: 30px;
+   margin-left: 10px;
+   color: var(--font-color-menu)
+ 
+}
+.sec p {
+    font-family: var(--font-style-etiqueta);
+    font-size: 15px;
+    margin-left: 10px;
+    color: var(--font-color-menu);
+    margin: 2px;
+    padding-left: 10px;
+  
+ }
+
+ .sec div {
+    padding: 10px;
+  
+ }
+
+
+
+
+/* ***************** Para footer  ********************** */
+
+.footer{
+    background-color: var(--back-color-header);
 }
 
 /******** Contenedor de Registros con table *********/
@@ -356,6 +411,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
  }
 
 .containerModal:target{ /* Cuando tenga el focus */

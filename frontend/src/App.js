@@ -6,108 +6,131 @@ import fb from "./images/fb.png";
 import gh from "./images/gh.png";
 import ind from "./images/in.png";
 
-import fondo from "./images/fondopersonal.jpg"
+
 
 function App() {
   return (
-   
     <>
-    <div class="imgEnc">
-         <img src={fondo} alt="enc1920" />
-    </div> 
-      {/* Header*/}
+      {/* <div class="imgEnc">
+        <img src={fondo} alt="enc1920" />
+      </div>  */}
 
-      <div class="header">
-        <div>
-          <a href="#modalPersonal">
-            <span title="Datos Personales">
-              <img class="fotoPersonal" src={alex} alt="imagen personal" />
-            </span>
-          </a>
-        </div>
-        <nav>
+      {/* header  */}
+      <header id="header">
+        <div class="header">
           <div>
-            <ul class="menu">
-              <li>
-                <a href="">Inicio</a>
-              </li>
-              <li>
-                <a href="AdminNivelEscolar.html">Estudios</a>
-              </li>
-              <li>
-                <a href="AdminJobs.html">Empleos</a>
-              </li>
-              <li>
-                <a href="AdminCrosscutting.html">Transversales </a>
-              </li>
-              <li>
-                <a href="AdminKnowledge.html">Conocimientos</a>
-              </li>
-              <li>
-                <a href="AdminProjects.html">Proyectos</a>
-              </li>
-              <li>
-                <a href="#">Comunidad</a>
-              </li>
-              <li>
-                <a href="AcercaDe.html">Acerca de...</a>
-              </li>
-            </ul>
+            <a href="#modalPersonal">
+              <span title="Datos Personales">
+                <img class="fotoPersonal" src={alex} alt="imagen personal" />
+              </span>
+            </a>
           </div>
-        </nav>
-        {/* Para poner en una línea las tecnologías y lonks a otras páginas */}
-        <div class="containerCabecera">
-          <div>
-            <p class="parrafoCabecera">
-              Desarrollo WEB | Aplicaciones de Escritorio | Java EE | Back-End
-              Dev. | HTML | CSS | JavaScript | React | Node js | Herramientas
-              Office
-            </p>
-          </div>
-          <div  class="iconosSociales">
+          <nav>
             <div>
-              <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank">
-                <span title="Facebook">
-                  <img class="fotoReduce" src={fb} alt="facebook" />
-                </span>
-              </a>
+              <ul class="menu">
+                <li>
+                  <a href="">Inicio</a>
+                </li>
+                <li>
+                  <a href="AdminNivelEscolar.html">Estudios</a>
+                </li>
+                <li>
+                  <a href="AdminJobs.html">Empleos</a>
+                </li>
+                <li>
+                  <a href="AdminCrosscutting.html">Transversales </a>
+                </li>
+                <li>
+                  <a href="AdminKnowledge.html">Conocimientos</a>
+                </li>
+                <li>
+                  <a href="AdminProjects.html">Proyectos</a>
+                </li>
+                <li>
+                  <a href="#">Comunidad</a>
+                </li>
+                <li>
+                  <a href="AcercaDe.html">Acerca de...</a>
+                </li>
+              </ul>
             </div>
+          </nav>
+          {/* Para poner en una línea las tecnologías y lonks a otras páginas */}
+          <div class="containerCabecera">
             <div>
-              <a href="https://github.com/AlexT-Dev" target="_blank">
-                <span title="Gut Hub">
-                  <img class="fotoReduce" src={gh} alt="GitHub" />
-                </span>
-              </a>
+              <p class="parrafoCabecera">
+                Desarrollo WEB | Aplicaciones de Escritorio | Java EE | Back-End
+                Dev. | HTML | CSS | JavaScript | React | Node js | Herramientas
+                Office
+              </p>
             </div>
-            <div>
-              <a
-                href="https://www.linkedin.com/in/alejandro-t%C3%A9llez-aguilar-175b02214/"
-                target="_blank"
-              >
-                <span title="LinkedIn">
-                  <img class="fotoReduce" src={ind} alt="Indeed" />
-                </span>
-              </a>
+            <div class="iconosSociales">
+              <div>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100008755599666"
+                  target="_blank"
+                >
+                  <span title="Facebook">
+                    <img class="fotoReduce" src={fb} alt="facebook" />
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a href="https://github.com/AlexT-Dev" target="_blank">
+                  <span title="Gut Hub">
+                    <img class="fotoReduce" src={gh} alt="GitHub" />
+                  </span>
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/alejandro-t%C3%A9llez-aguilar-175b02214/"
+                  target="_blank"
+                >
+                  <span title="LinkedIn">
+                    <img class="fotoReduce" src={ind} alt="Indeed" />
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      
+      </header>
       {/* End header */}
       {/* Body */}
-
-
+      <body >
+       {/* Secciones */}
+       <section id="seccion-estudios" class="sec">
+        {/* Sección izquierda para texto */}
+        <div class="h1">
+         <h1  >Preparación profesional</h1>
+          <p >
+           Mis estudios en la programación iniciaron a los 17 años en una escuela rudimentaria que contaba con lo escencial, teclados Commodore 16 con 16 KB de memoria y lenguaje Basic.
+          </p>
+          <p>
+           Conitnué mi formación profesional en la Universidad Autónoma del Pacífico, de 1991 a 1995, Titulado como Lic. en Sistemas Computacionales.
+          </p>
+          <p>
+           El perfil académico es de tipo administrativo con la capacidad de comprender y apoyar a la parte técnica como hardware de uso o propósito general.
+          </p>
+          <a href="#header"> Inicio </a>
+        </div>
+        {/* Sección derecha para imagen */}
+        <div>
+         
+        </div>
+      </section>
+      </body>
       {/* End Body */}
 
-       {/* footer */}
+      {/* footer */}
+      <footer>
+        <div class="footer">telefono</div>
+      </footer>
+      {/* end footer */}
 
-       {/* end footer */}
-
-
-
-{/* <!-- Modal para datos de la fotografía ---> */}
-<div class="containerModal" id="modalPersonal">
+      {/* <!-- Modal para datos de la fotografía ---> */}
+      <div class="containerModal" id="modalPersonal">
         <div class="popup">
           <div class="imagen"></div>
           <div class="textModal">
@@ -138,8 +161,6 @@ function App() {
           </div>
         </div>
       </div>
-
-
     </>
   );
 }
