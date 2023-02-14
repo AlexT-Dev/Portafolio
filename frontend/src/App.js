@@ -28,14 +28,14 @@ function App() {
           <nav>
             <div>
               <ul class="menu">
-                <li>
+                {/* <li>
                   <a href="">Inicio</a>
+                </li> */}
+                <li>
+                  <a href="#seccion-estudios">Preparación Profesional</a>
                 </li>
                 <li>
-                  <a href="AdminNivelEscolar.html">Estudios</a>
-                </li>
-                <li>
-                  <a href="AdminJobs.html">Empleos</a>
+                  <a href="#seccion-empleos">Experiencia</a>
                 </li>
                 <li>
                   <a href="AdminCrosscutting.html">Transversales </a>
@@ -102,22 +102,46 @@ function App() {
        {/* Secciones */}
        <section id="seccion-estudios" class="sec">
         {/* Sección izquierda para texto */}
-        <div class="h1">
-         <h1  >Preparación profesional</h1>
+        <div class="izquierda">
+         <h1 class="h1" >Preparación profesional</h1>
           <p >
            Mis estudios en la programación iniciaron a los 17 años en una escuela rudimentaria que contaba con lo escencial, teclados Commodore 16 con 16 KB de memoria y lenguaje Basic.
           </p>
           <p>
-           Conitnué mi formación profesional en la Universidad Autónoma del Pacífico, de 1991 a 1995, Titulado como Lic. en Sistemas Computacionales.
+           Continué mi formación profesional en la Universidad Autónoma del Pacífico, de 1991 a 1995, Titulado como Lic. en Sistemas Computacionales.
           </p>
           <p>
            El perfil académico es de tipo administrativo con la capacidad de comprender y apoyar a la parte técnica como hardware de uso o propósito general.
           </p>
-          <a href="#header"> Inicio </a>
+          <hr class="espacio"></hr>
+          <a class="button" href="#header" > Inicio </a>
         </div>
         {/* Sección derecha para imagen */}
-        <div>
-         
+        <div class="secimg boximg">
+        
+        </div>
+       </section>
+      {/* Salto de Sección */}
+      <div class="saltoSeccion"></div>
+      <section id="seccion-empleos" class="sec">
+        {/* Sección izquierda para texto */}
+        <div class="izquierda">
+         <h1 class="h1" >Experiencia</h1>
+          <p >
+           Mis estudios en la programación iniciaron a los 17 años en una escuela rudimentaria que contaba con lo escencial, teclados Commodore 16 con 16 KB de memoria y lenguaje Basic.
+          </p>
+          <p>
+           Continué mi formación profesional en la Universidad Autónoma del Pacífico, de 1991 a 1995, Titulado como Lic. en Sistemas Computacionales.
+          </p>
+          <p>
+           El perfil académico es de tipo administrativo con la capacidad de comprender y apoyar a la parte técnica como hardware de uso o propósito general.
+          </p>
+          <hr class="espacio"></hr>
+          <a class="button" href="#header" > Inicio </a>
+        </div>
+        {/* Sección derecha para imagen */}
+        <div class="secimg boximg">
+        
         </div>
       </section>
       </body>
