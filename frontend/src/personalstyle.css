@@ -40,7 +40,6 @@
 
 /************ Formato de menu ******************/
 
-
 .menu ul {
     
     list-style: none;
@@ -88,11 +87,7 @@
 
 
 /********* Header ******/
-.container{
-    background-image: url('./images/fondopersonal.jpg');
-    background-color: var(--back-color-header);
-    
-}
+
 .imgEnc {
     width: 100%;
     left: 0; /* Posicionamos la cabecera al lado izquierdo */
@@ -150,26 +145,142 @@
 /* Para la que viene de html*/
 #root {
     background-color: var(--back-color-header);
-    background-image: url('./images/fondopersonal.jpg'); 
+    /* background-image: url('./images/fondopersonal.jpg');  */
     margin: 0px;
     padding: 0px;
 }
 
+/****************** Para Skills ****************************/
+
+.h1skill {
+    font-family: var(--font-style-etiqueta);
+    font-size: 30px;
+    margin-left: 10px;
+    color: var(--font-color-h1);
+    padding-top: 15px;
+   
+  
+ }
+.cskills{
+    width: 100%;
+    background-color:var(--back-color-header);
+    margin-left: 10px;
+    
+}
+
+.skills{
+    text-align: right;
+    padding-right: 2px;
+    color:black;
+    font-weight: bold;
+    font-family: var(--font-style-p);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.vb {
+    background-color: gray;
+    animation: fillvb 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvb {
+    0%{width: 0;}
+    100%{width: 40%;}
+}
+
+.cobol {
+    background-color: gray;
+    animation: fillcobol 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillcobol {
+    0%{width: 0;}
+    100%{width: 40%;}
+}
+
+.java {
+    background-color: gray;
+    animation: filljava 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes filljava {
+    0%{width: 0;}
+    100%{width: 35%;}
+}
+
+.njs {
+    background-color: gray;
+    animation: fillnjs 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillnjs {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.css {
+    background-color: gray;
+    animation: fillcss 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+.html {
+    background-color: gray;
+    animation: fillhtml 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+
+.sql {
+    background-color: gray;
+    animation: fillsql 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillsql {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.ms {
+    background-color: gray;
+    animation: fillms 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillms {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
 /************* Para Secciones ********************************/
 
 .saltoSeccion{
-    padding: 30px;
+    padding: 15px;
 }
 
 .sec {
-    background-color: var(--back-color-header);
-    /* box-shadow: 0 0 4px 3px burlywood; */
+    background-color: black;
+    /* var(--back-color-header); */
+    box-shadow: 0 0 4px 3px burlywood; 
     transition: all 800ms;
     /* transform: translate(-50%, -50%);  */
     
     opacity: 0.9;
     
 }
+
 
 #seccion-estudios{
     display: flex;
@@ -185,12 +296,13 @@
    font-family: var(--font-style-etiqueta);
    font-size: 30px;
    margin-left: 10px;
-   color: var(--font-color-h1)
+   color: var(--font-color-h1);
+  
  
 }
 .sec p {
     font-family: var(--font-style-p);
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 10px;
     color: var(--font-color-menu);
     margin: 2px;
@@ -198,24 +310,51 @@
   
  }
 
- .sec div {
-    padding: 10px;
+ .secdiv {
+    padding: 15px;
     
  }
+
+ .sec a{
+    color: var(--font-color-h1);
+}
 
  .button {
     
     border: 1px solid var(--color-over-button); 
     color: var(--font-color-menu);
     padding: 5px 11px;
+    margin-left: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
     font-size: 15px;
     font-weight: bold;
     font-family: var(--font-style-modalPersonal);
+    position: relative;
+    z-index: 1;
     
  }
+
+ .button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 100%;
+    background-color: var(--color-over-button);
+    z-index: -1;
+    transition: width 0.2s ease-in-out;
+    
+ }
+
+ .button:hover::after{
+    width: 100%;
+   
+ }
+
 
  .espacio {
     border: none;
@@ -232,11 +371,32 @@
   
 }
 
-.boximg {
+.imgestudios {
     display: inline;
     background-image: url(./images/escuela.jpg);
    
 }
+
+#seccion-empleos{
+    display: flex;
+}
+.imgexperiencia {
+    display: inline;
+    background-image: url(./images/experiencia.jpg);
+   
+}
+
+#seccion-trans{
+    display: flex;
+}
+.imgtrans {
+    display: inline;
+    background-image: url(./images/Transversales.jpg);
+   
+}
+
+
+
 
 
 /* ***************** Para footer  ********************** */
@@ -622,116 +782,3 @@
 }
 
 
-/*  ESTILOS DE BARRA LATERAL  */
-
-
-	.capa{
-		position: fixed;
-		width: 100%;
-		height: 100vh;
-		background: rgba(0,0,0,0.6);
-		z-index: -1;
-		top: 0;left: 0;
-	}
-	/*Estilos para el encabezado*/
-/*	.header{
-		width: 100%;
-		height: 100px;
-		position: fixed;
-		top: 0;left: 0;
-	}*/
-	.container{
-		width: 90%;
-		max-width: 1200px;
-		margin: auto;
-	}
-	.container .btn-menu, .logo{
-		float: left;
-		line-height:100px;
-	}
-	.container .btn-menu label{
-		color: #fff;
-		font-size: 25px;
-		cursor: pointer;
-	}
-	.logo h1{
-		color: #fff;
-		font-weight: 400;
-		font-size: 22px;
-		margin-left: 10px;
-	}
-	.container .menu{
-		float: right;
-		line-height: 100px;
-	}
-	.container .menu a{
-		display: inline-block;
-		padding: 15px;
-		line-height: normal;
-		text-decoration: none;
-		color: #fff;
-		transition: all 0.3s ease;
-		border-bottom: 2px solid transparent;
-		font-size: 15px;
-		margin-right: 5px;
-	}
-	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
-		padding-bottom: 5px;
-	}
-	/*Fin de Estilos para el encabezado*/
-
-	/*Menù lateral*/
-	#btn-menu{
-		display: none;
-	}
-	.container-menu{
-		position: absolute;
-		background: rgba(0,0,0,0.5);
-		width: 100%;
-		height: 100vh;
-		top: 0;left: 0;
-		transition: all 500ms ease;
-		opacity: 0;
-		visibility: hidden;
-	}
-	#btn-menu:checked ~ .container-menu{
-		opacity: 1;
-		visibility: visible;
-	}
-	.cont-menu{
-		width: 100%;
-		max-width: 250px;
-		background: #1c1c1c;
-		height: 100vh;
-		position: relative;
-		transition: all 500ms ease;
-		transform: translateX(-100%);
-	}
-	#btn-menu:checked ~ .container-menu .cont-menu{
-		transform: translateX(0%);
-	}
-	.cont-menu nav{
-		transform: translateY(15%);
-	}
-	.cont-menu nav a{
-		display: block;
-		text-decoration: none;
-		padding: 20px;
-		color: #c7c7c7;
-		border-left: 5px solid transparent;
-		transition: all 400ms ease;
-	}
-	.cont-menu nav a:hover{
-		border-left: 5px solid #c7c7c7;
-		background: #1f1f1f;
-	}
-	.cont-menu label{
-		position: absolute;
-		right: 5px;
-		top: 10px;
-		color: #fff;
-		cursor: pointer;
-		font-size: 18px;
-	}
-	/*Fin de Menù lateral*/

@@ -6,8 +6,6 @@ import fb from "./images/fb.png";
 import gh from "./images/gh.png";
 import ind from "./images/in.png";
 
-
-
 function App() {
   return (
     <>
@@ -38,19 +36,16 @@ function App() {
                   <a href="#seccion-empleos">Experiencia</a>
                 </li>
                 <li>
-                  <a href="AdminCrosscutting.html">Transversales </a>
+                  <a href="#seccion-trans">Transversales </a>
                 </li>
                 <li>
-                  <a href="AdminKnowledge.html">Conocimientos</a>
+                  <a href="#seccion-conocimientos">Conocimientos</a>
                 </li>
                 <li>
-                  <a href="AdminProjects.html">Proyectos</a>
+                  <a href="#seccion-proyectos">Proyectos</a>
                 </li>
                 <li>
-                  <a href="#">Comunidad</a>
-                </li>
-                <li>
-                  <a href="AcercaDe.html">Acerca de...</a>
+                  <a href="#seccion-acercade">Acerca de...</a>
                 </li>
               </ul>
             </div>
@@ -100,6 +95,52 @@ function App() {
       {/* Body */}
       <body >
        {/* Secciones */}
+       <section id="seccion-skills" class="sec">
+        {/* Sección izquierda para texto */}
+        <div class="izquierda">
+         <h1 class="h1skill" >Tecnologías</h1>
+          <p>Visual Basic</p>
+          <div class="cskills">
+           <div class="skills vb">40%</div>
+          </div>
+          <p>Cobol</p>
+          <div class="cskills">
+            <div class="skills cobol">40%</div>
+          </div>
+          <p>- Java EE Edition</p>
+          <div class="cskills">
+            <div class="skills java">35%</div>
+          </div>
+          <p>Node JS</p>
+          <div class="cskills">
+            <div class="skills njs">30%</div>
+          </div>
+          <p>CSS</p>
+          <div class="cskills">
+            <div class="skills css">60%</div>
+          </div>
+          <p>HTML</p>
+          <div class="cskills">
+            <div class="skills html">60%</div>
+          </div>
+          <p>MySql y PostGreSql</p>
+          <div class="cskills">
+            <div class="skills sql">70%</div>
+          </div>
+          <p>Microsoft Office (Excel, Word, Power Point, Access, Visio, Project)</p> 
+          <div class="cskills">
+            <div class="skills ms">70%</div>
+          </div>
+          <hr class="espacio"></hr>
+          <a class="button" href="#header" > Inicio </a>
+        </div>
+        {/* Sección derecha para imagen */}
+        <div class="secimg ">
+        
+        </div>
+       </section>
+      {/* Salto de Sección */}
+      <div class="saltoSeccion"></div>
        <section id="seccion-estudios" class="sec">
         {/* Sección izquierda para texto */}
         <div class="izquierda">
@@ -113,11 +154,15 @@ function App() {
           <p>
            El perfil académico es de tipo administrativo con la capacidad de comprender y apoyar a la parte técnica como hardware de uso o propósito general.
           </p>
+          <p>
+           Tome una especialización sobre desarrollo WEB en Soy Henry, escuela en línea para sertificación como Full-Stack Dev. <a href="https://www.soyhenry.com/" target="_blank">Soy Henry</a>
+          </p>
+          
           <hr class="espacio"></hr>
           <a class="button" href="#header" > Inicio </a>
         </div>
         {/* Sección derecha para imagen */}
-        <div class="secimg boximg">
+        <div class="secimg imgestudios">
         
         </div>
        </section>
@@ -127,23 +172,48 @@ function App() {
         {/* Sección izquierda para texto */}
         <div class="izquierda">
          <h1 class="h1" >Experiencia</h1>
-          <p >
-           Mis estudios en la programación iniciaron a los 17 años en una escuela rudimentaria que contaba con lo escencial, teclados Commodore 16 con 16 KB de memoria y lenguaje Basic.
+          <p>
+            Global Gas. Enpresa dedicada a la venta de Gas LP para consumo doméstico. Jefe de TI Zona Colima.
           </p>
           <p>
-           Continué mi formación profesional en la Universidad Autónoma del Pacífico, de 1991 a 1995, Titulado como Lic. en Sistemas Computacionales.
+           Ternium. Se dedica la extracción de Fierro Mineral y su transformación en Acero. Encargado de Desarrollo de Sistemas.
           </p>
           <p>
-           El perfil académico es de tipo administrativo con la capacidad de comprender y apoyar a la parte técnica como hardware de uso o propósito general.
+          
+           Más información en archivo adjunto <a class="button" href="/CV_Alejandro_completo.pdf" download="CV ATA.pdf">Curriculum Vitae</a>
+          
           </p>
+          <hr class="espacio"></hr>
+          
+          <a class="button" href="#header" > Inicio </a>
+          
+        </div>
+        {/* Sección derecha para imagen */}
+        <div class="secimg imgexperiencia">
+        
+        </div>
+       </section>
+      
+       <div class="saltoSeccion"></div>
+      <section id="seccion-trans" class="sec">
+        {/* Sección izquierda para texto */}
+        <div class="izquierda">
+         <h1 class="h1" >Competencias Transversales</h1>
+          <p>- Proactividad.</p>
+          <p>- Aprendizaje activo.</p>
+          <p>- Resolución de problemas y conflictos.</p>
+          <p>- Creatividad y Capacidad de Análisis.</p>
+          <p>- Trabajo en equipo.</p>
           <hr class="espacio"></hr>
           <a class="button" href="#header" > Inicio </a>
         </div>
         {/* Sección derecha para imagen */}
-        <div class="secimg boximg">
+        <div class="secimg imgtrans">
         
         </div>
-      </section>
+       </section>
+
+
       </body>
       {/* End Body */}
 
