@@ -157,16 +157,32 @@
     font-size: 30px;
     margin-left: 10px;
     color: var(--font-color-h1);
-    padding-top: 15px;
    
-  
+   
  }
-.cskills{
-    width: 100%;
-    background-color:var(--back-color-header);
-    margin-left: 10px;
+
+.divskill{
+    display: flex;
+    justify-content: left;
     
 }
+
+.columnaskill{
+   width: 20%;
+   /* padding-top: 2px; */
+   text-align: right;
+   margin-right: 5px;
+}
+
+.cskills{
+    width:80%;
+    background-color:var(--back-color-header);
+    /* margin-left: 15px; */
+   margin-top:5px;
+    /* margin: 0px; */
+ }
+
+
 
 .skills{
     text-align: right;
@@ -179,7 +195,7 @@
 }
 
 .vb {
-    background-color: gray;
+    background-color: var(--color-over-button) ;
     animation: fillvb 2s forwards;
     margin-left: 0px;
 }
@@ -190,29 +206,29 @@
 }
 
 .cobol {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillcobol 2s forwards;
     margin-left: 0px;
 }
 
 @keyframes fillcobol {
     0%{width: 0;}
-    100%{width: 40%;}
+    100%{width: 30%;}
 }
 
 .java {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: filljava 2s forwards;
     margin-left: 0px;
 }
 
 @keyframes filljava {
     0%{width: 0;}
-    100%{width: 35%;}
+    100%{width: 30%;}
 }
 
 .njs {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillnjs 2s forwards;
     margin-left: 0px;
 }
@@ -223,17 +239,17 @@
 }
 
 .css {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillcss 2s forwards;
     margin-left: 0px;
 }
 
 @keyframes fillcss {
     0%{width: 0;}
-    100%{width: 60%;}
+    100%{width: 50%;}
 }
 .html {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillhtml 2s forwards;
     margin-left: 0px;
 }
@@ -244,7 +260,7 @@
 }
 
 .sql {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillsql 2s forwards;
     margin-left: 0px;
 }
@@ -255,7 +271,7 @@
 }
 
 .ms {
-    background-color: gray;
+    background-color: var(--color-over-button);
     animation: fillms 2s forwards;
     margin-left: 0px;
 }
@@ -264,6 +280,7 @@
     0%{width: 0;}
     100%{width: 70%;}
 }
+
 /************* Para Secciones ********************************/
 
 .saltoSeccion{
@@ -289,7 +306,7 @@
 /* Lado Izquierdo */
 .izquierda {
     height: 50vh;
-    width: 40%;
+    width: 50%;
 }
 
 .sec h1 {
@@ -351,8 +368,8 @@
  }
 
  .button:hover::after{
-    width: 100%;
-   
+    width: 105%;
+    border-radius: 5px;
  }
 
 
@@ -366,7 +383,7 @@
   
   
   /* background-position: center; */
-  width: 60%;
+  width: 50%;
   height: 50vh;
   
 }
@@ -395,7 +412,9 @@
    
 }
 
-
+#seccion-skills{
+    display: flex;
+}
 
 
 

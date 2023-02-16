@@ -99,44 +99,161 @@ function App() {
         {/* Sección izquierda para texto */}
         <div class="izquierda">
          <h1 class="h1skill" >Tecnologías</h1>
-          <p>Visual Basic</p>
-          <div class="cskills">
-           <div class="skills vb">40%</div>
+         <div class="divskill">
+           <div class="columnaskill">
+             <p>Visual Basic</p>
+           </div> 
+           <div class="cskills  ">
+             <div class="skills vb ">40%</div>
+           </div>
+          </div>  
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Cobol</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills cobol ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Java EE Edition</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills java ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Node JS</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills njs ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>CSS</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills css ">50%</div>
+           </div>
           </div>
-          <p>Cobol</p>
-          <div class="cskills">
-            <div class="skills cobol">40%</div>
+          
+         
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>HTML</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills html ">60%</div>
+           </div>
           </div>
-          <p>- Java EE Edition</p>
-          <div class="cskills">
-            <div class="skills java">35%</div>
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>MySql y PostGreSql</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills njs ">70%</div>
+           </div>
           </div>
-          <p>Node JS</p>
-          <div class="cskills">
-            <div class="skills njs">30%</div>
+          
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Microsoft Office</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills ms ">70%</div>
+           </div>
           </div>
-          <p>CSS</p>
-          <div class="cskills">
-            <div class="skills css">60%</div>
-          </div>
-          <p>HTML</p>
-          <div class="cskills">
-            <div class="skills html">60%</div>
-          </div>
-          <p>MySql y PostGreSql</p>
-          <div class="cskills">
-            <div class="skills sql">70%</div>
-          </div>
-          <p>Microsoft Office (Excel, Word, Power Point, Access, Visio, Project)</p> 
-          <div class="cskills">
-            <div class="skills ms">70%</div>
-          </div>
-          <hr class="espacio"></hr>
-          <a class="button" href="#header" > Inicio </a>
+          
         </div>
         {/* Sección derecha para imagen */}
         <div class="secimg ">
-        
+        <h1 class="h1skill" >Tecnologías</h1>
+        <div class="divskill">
+           <div class="columnaskill">
+             <p>Visual Basic</p>
+           </div> 
+           <div class="cskills  ">
+             <div class="skills vb ">40%</div>
+           </div>
+          </div>  
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Cobol</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills cobol ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Java EE Edition</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills java ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Node JS</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills njs ">30%</div>
+           </div>
+          </div> 
+
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>CSS</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills css ">50%</div>
+           </div>
+          </div>
+          
+         
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>HTML</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills html ">60%</div>
+           </div>
+          </div>
+
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>MySql y PostGreSql</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills njs ">70%</div>
+           </div>
+          </div>
+          
+          <div class="divskill">
+           <div class="columnaskill">
+             <p>Microsoft Office</p>
+           </div> 
+           <div class="cskills ">
+             <div class="skills ms ">70%</div>
+           </div>
+          </div>
         </div>
        </section>
       {/* Salto de Sección */}
@@ -192,7 +309,7 @@ function App() {
         <div class="secimg imgexperiencia">
         
         </div>
-       </section>
+      </section>
       
        <div class="saltoSeccion"></div>
       <section id="seccion-trans" class="sec">
@@ -211,7 +328,7 @@ function App() {
         <div class="secimg imgtrans">
         
         </div>
-       </section>
+      </section>
 
 
       </body>
