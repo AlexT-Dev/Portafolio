@@ -179,6 +179,7 @@
     background-color:var(--back-color-header);
     /* margin-left: 15px; */
    margin-top:5px;
+   margin-right: 10px;
     /* margin: 0px; */
  }
 
@@ -192,6 +193,7 @@
     font-family: var(--font-style-p);
     font-size: 10px;
     font-weight: bold;
+   
 }
 
 .vb {
@@ -281,6 +283,38 @@
     100%{width: 70%;}
 }
 
+.visio {
+    background-color: var(--color-over-button);
+    animation: fillvisio 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvisio {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+.project {
+    background-color: var(--color-over-button);
+    animation: fillpro 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillpro {
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+.vba {
+    background-color: var(--color-over-button);
+    animation: fillvba 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvba {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
 /************* Para Secciones ********************************/
 
 .saltoSeccion{
@@ -293,15 +327,13 @@
     box-shadow: 0 0 4px 3px burlywood; 
     transition: all 800ms;
     /* transform: translate(-50%, -50%);  */
-    
+    display: flex;
     opacity: 0.9;
     
 }
 
 
-#seccion-estudios{
-    display: flex;
-}
+
 
 /* Lado Izquierdo */
 .izquierda {
@@ -375,46 +407,39 @@
 
  .espacio {
     border: none;
+    padding: 5px 0px 0px 0px;
  }
 
 /* Lado Derecho */
 
 .secimg {
-  
-  
-  /* background-position: center; */
   width: 50%;
   height: 50vh;
-  
 }
 
+.imgsize{ /* para tamaño de las imagenes*/
+    display: inline;
+      width: 765px;
+     height: 472px;
+}
 .imgestudios {
-    display: inline;
     background-image: url(./images/escuela.jpg);
-   
-}
+ }
 
-#seccion-empleos{
-    display: flex;
-}
+
 .imgexperiencia {
-    display: inline;
-    background-image: url(./images/experiencia.jpg);
-   
+   background-image: url(./images/experiencia.jpg);
 }
 
-#seccion-trans{
-    display: flex;
-}
+
 .imgtrans {
-    display: inline;
-    background-image: url(./images/Transversales.jpg);
-   
+  background-image: url(./images/Transversales.jpg);
 }
 
-#seccion-skills{
-    display: flex;
-}
+
+.imgpro {
+    background-image: url(./images/proyectos.jpg);
+  }
 
 
 

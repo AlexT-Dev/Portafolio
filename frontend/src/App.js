@@ -38,11 +38,9 @@ function App() {
                 <li>
                   <a href="#seccion-trans">Transversales </a>
                 </li>
+                
                 <li>
-                  <a href="#seccion-conocimientos">Conocimientos</a>
-                </li>
-                <li>
-                  <a href="#seccion-proyectos">Proyectos</a>
+                  <a href="#seccion-pro">Proyectos</a>
                 </li>
                 <li>
                   <a href="#seccion-acercade">Acerca de...</a>
@@ -162,7 +160,7 @@ function App() {
              <p>MySql y PostGreSql</p>
            </div> 
            <div class="cskills ">
-             <div class="skills njs ">70%</div>
+             <div class="skills sql ">70%</div>
            </div>
           </div>
           
@@ -178,10 +176,10 @@ function App() {
         </div>
         {/* Sección derecha para imagen */}
         <div class="secimg ">
-        <h1 class="h1skill" >Tecnologías</h1>
+        <h1 class="h1skill">Conocimientos</h1>
         <div class="divskill">
            <div class="columnaskill">
-             <p>Visual Basic</p>
+             <p>UML</p>
            </div> 
            <div class="cskills  ">
              <div class="skills vb ">40%</div>
@@ -190,68 +188,38 @@ function App() {
 
           <div class="divskill">
            <div class="columnaskill">
-             <p>Cobol</p>
+             <p>Visio</p>
            </div> 
            <div class="cskills ">
-             <div class="skills cobol ">30%</div>
+             <div class="skills visio ">70%</div>
            </div>
           </div> 
 
 
           <div class="divskill">
            <div class="columnaskill">
-             <p>Java EE Edition</p>
+             <p>MS Project</p>
            </div> 
            <div class="cskills ">
-             <div class="skills java ">30%</div>
+             <div class="skills project ">55%</div>
            </div>
           </div> 
 
-
           <div class="divskill">
            <div class="columnaskill">
-             <p>Node JS</p>
+             <p>MS Access</p>
            </div> 
            <div class="cskills ">
-             <div class="skills njs ">30%</div>
+             <div class="skills visio ">70%</div>
            </div>
           </div> 
-
-
-          <div class="divskill">
-           <div class="columnaskill">
-             <p>CSS</p>
-           </div> 
-           <div class="cskills ">
-             <div class="skills css ">50%</div>
-           </div>
-          </div>
-          
          
           <div class="divskill">
            <div class="columnaskill">
-             <p>HTML</p>
+             <p>MS VBA</p>
            </div> 
            <div class="cskills ">
-             <div class="skills html ">60%</div>
-           </div>
-          </div>
-
-          <div class="divskill">
-           <div class="columnaskill">
-             <p>MySql y PostGreSql</p>
-           </div> 
-           <div class="cskills ">
-             <div class="skills njs ">70%</div>
-           </div>
-          </div>
-          
-          <div class="divskill">
-           <div class="columnaskill">
-             <p>Microsoft Office</p>
-           </div> 
-           <div class="cskills ">
-             <div class="skills ms ">70%</div>
+             <div class="skills vba ">50%</div>
            </div>
           </div>
         </div>
@@ -279,7 +247,7 @@ function App() {
           <a class="button" href="#header" > Inicio </a>
         </div>
         {/* Sección derecha para imagen */}
-        <div class="secimg imgestudios">
+        <div class="secimg imgsize imgestudios">
         
         </div>
        </section>
@@ -295,9 +263,10 @@ function App() {
           <p>
            Ternium. Se dedica la extracción de Fierro Mineral y su transformación en Acero. Encargado de Desarrollo de Sistemas.
           </p>
+          <hr class="espacio"></hr>
           <p>
           
-           Más información en archivo adjunto <a class="button" href="/CV_Alejandro_completo.pdf" download="CV ATA.pdf">Curriculum Vitae</a>
+           Más información en archivo adjunto. <a class="button" href="/CV_Alejandro_completo.pdf" download="CV ATA.pdf">Curriculum Vitae</a>
           
           </p>
           <hr class="espacio"></hr>
@@ -306,13 +275,13 @@ function App() {
           
         </div>
         {/* Sección derecha para imagen */}
-        <div class="secimg imgexperiencia">
+        <div class="secimg imgsize imgexperiencia">
         
         </div>
       </section>
       
        <div class="saltoSeccion"></div>
-      <section id="seccion-trans" class="sec">
+       <section id="seccion-trans" class="sec">
         {/* Sección izquierda para texto */}
         <div class="izquierda">
          <h1 class="h1" >Competencias Transversales</h1>
@@ -325,10 +294,29 @@ function App() {
           <a class="button" href="#header" > Inicio </a>
         </div>
         {/* Sección derecha para imagen */}
-        <div class="secimg imgtrans">
+        <div class="secimg imgsize imgtrans">
         
         </div>
-      </section>
+       </section>
+
+       <div class="saltoSeccion"></div>
+       <section id="seccion-pro" class="sec">
+        {/* Sección izquierda para texto */}
+        <div class="izquierda">
+         <h1 class="h1" >Proyectos</h1>
+          <p>- PI-Countries (Henry).</p>
+          <p>- PF-Mate. (Proyecto final en Grupo Henry)</p>
+          <p>- DEGO Sistema tipo Uber (43 Personas de todo el País).</p>
+          <p>- Historia Clínica (Java EE y MySql).</p>
+          
+          <hr class="espacio"></hr>
+          <a class="button" href="#header" > Inicio </a>
+        </div>
+        {/* Sección derecha para imagen */}
+        <div class="secimg imgsize imgpro">
+        
+        </div>
+       </section>
 
 
       </body>
