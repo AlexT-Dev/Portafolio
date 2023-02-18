@@ -16,76 +16,62 @@ function App() {
       {/* header  */}
       <header id="header">
         <div class="header">
-          <div>
+          <div> {/*Para imagen */}
             <a href="#modalPersonal">
               <span title="Datos Personales">
                 <img class="fotoPersonal" src={alex} alt="imagen personal" />
               </span>
             </a>
           </div>
-          <nav>
-            <div>
-              <ul class="menu">
-                {/* <li>
-                  <a href="">Inicio</a>
-                </li> */}
-                <li>
-                  <a href="#seccion-estudios">Preparación Profesional</a>
-                </li>
-                <li>
-                  <a href="#seccion-empleos">Experiencia</a>
-                </li>
-                <li>
-                  <a href="#seccion-trans">Transversales </a>
-                </li>
-                
-                <li>
-                  <a href="#seccion-pro">Proyectos</a>
-                </li>
-                <li>
-                  <a href="#seccion-acercade">Acerca de...</a>
-                </li>
-              </ul>
+          <div> {/* Para Nombre y Tecnologías */}
+            <div class="headerdivname">
+              <p class="headerp">Hola, Soy Alejandro Téllez Aguilar,</p>
+              <p class="headerp">web developer</p>
+              <h4 class="headerh4">Back End Dev</h4>
             </div>
-          </nav>
-          {/* Para poner en una línea las tecnologías y lonks a otras páginas */}
-          <div class="containerCabecera">
             <div>
-              <p class="parrafoCabecera">
-                Desarrollo WEB | Aplicaciones de Escritorio | Java EE | Back-End
-                Dev. | HTML | CSS | JavaScript | React | Node js | Herramientas
-                Office
-              </p>
+            <p class="parrafoCabecera">
+              WEb Develop| Aplicaciones de Escritorio | Java EE | 
+              HTML | CSS | JavaScript | React | Node js | Office
+            </p>
             </div>
-            <div class="iconosSociales">
+          </div>
+          <div class="headerdivmenu">
+            <nav>
+              
+                <ul class="menu">
+                  <li>  <a href="#seccion-estudios">Preparación Profesional</a>  </li>
+                  <li>  <a href="#seccion-empleos">Experiencia</a> </li>
+                  <li>  <a href="#seccion-trans">Transversales </a> </li>
+                  <li>  <a href="#seccion-pro">Proyectos</a> </li>
+                  <li>  <a href="#seccion-acercade">Acerca de...</a> </li>
+                </ul>
+             
+            </nav>
+          </div>
+          
+          {/* Para links a otras páginas */}
+          <div class="headerdivicons">
+            
+           
               <div>
-                <a
-                  href="https://www.facebook.com/profile.php?id=100008755599666"
-                  target="_blank"
-                >
-                  <span title="Facebook">
-                    <img class="fotoReduce" src={fb} alt="facebook" />
-                  </span>
+                <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank" rel="noreferrer" >
+                  <span title="Facebook">  <img class="fotoReduce" src={fb} alt="facebook" />  </span>
                 </a>
               </div>
               <div>
-                <a href="https://github.com/AlexT-Dev" target="_blank">
-                  <span title="Gut Hub">
-                    <img class="fotoReduce" src={gh} alt="GitHub" />
-                  </span>
+                <a href="https://github.com/AlexT-Dev" target="_blank" rel="noreferrer">
+                  <span title="Gut Hub">  <img class="fotoReduce" src={gh} alt="GitHub" />  </span>
                 </a>
               </div>
               <div>
                 <a
                   href="https://www.linkedin.com/in/alejandro-t%C3%A9llez-aguilar-175b02214/"
-                  target="_blank"
-                >
-                  <span title="LinkedIn">
-                    <img class="fotoReduce" src={ind} alt="Indeed" />
-                  </span>
+                  target="_blank" rel="noreferrer">
+                  <span title="LinkedIn">  <img class="fotoReduce" src={ind} alt="Indeed" />  </span>
                 </a>
               </div>
-            </div>
+            
           </div>
         </div>
       </header>
@@ -258,7 +244,7 @@ function App() {
         <div class="izquierda">
          <h1 class="h1" >Experiencia</h1>
           <p>
-            Global Gas. Enpresa dedicada a la venta de Gas LP para consumo doméstico. Jefe de TI Zona Colima.
+            Global Gas. Empresa que realiza la venta de Gas LP para consumo doméstico. Jefe de TI Zona Colima.
           </p>
           <p>
            Ternium. Se dedica la extracción de Fierro Mineral y su transformación en Acero. Encargado de Desarrollo de Sistemas.

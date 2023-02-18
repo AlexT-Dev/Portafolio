@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Shadows+Into+Light&family=Splash&display=swap&family=Open+Sans&display=sans-serif');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Shadows+Into+Light&family=Splash&display=swap&family=Open+Sans&display=sans-serif?family=Anton&display=swap');
 
 /* 
     Created on : 25/01/2021, 12:41:13 PM
@@ -18,6 +18,7 @@
 --font-style-contenido: 'Acme', sans-serif;
 --font-style-textarea: 'Fuzzy Bubbles', cursive;
 --font-style-p: 'Open Sans', sans-serif;
+--font-style-p-header: 'Anton', sans-serif;
 --font-size-footer: 20px;
 --font-color-menu: white;
 --back-color-grid-data: #1746A2;
@@ -67,13 +68,7 @@
 
 /* Para datos debajo de opciones */
 
-.parrafoCabecera {
-    background-color: var(--back-color-header);
-    color:  var(--color-over-button);
-    text-align: left;
-    font-family: var(--font-style-modalPersonal);
-    font-weight: bold;
-}
+
 
 
 
@@ -99,15 +94,65 @@
     width: 100%;
     height: 169px;
     background-color: var(--back-color-header);
-    text-align: center;
-    
+   
+    display: flex;
     
     left: 0px; /* Posicionamos la cabecera al lado izquierdo */
     top: 0px; /*Posicionamos la cabecera pegada arriba */
     /* position: fixed; */
     
 }
+/* Para Párrafos */
+.headerp {
+    margin: 0px ;
+    font-family: var(--font-style-p-header); 
+    color: var(--font-color-h1);
+    font-size: 30px;
+}
 
+.headerh4 {
+    margin: 0px;
+    font-family: var(--font-style-p);
+    color: var(--font-color-menu)
+}
+
+.headerdivname {
+    padding: 10px;
+    width: 500px;
+}
+
+.headerdivmenu {
+    padding: 0px;
+    width: 550px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+.headerdivicons {
+    padding: 0px;
+    width: 100px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.parrafoCabecera {
+    background-color: var(--back-color-header);
+    color:  var(--color-over-button);
+    text-align: left;
+    font-family: var(--font-style-modalPersonal);
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 16px;
+}
 .containerCabecera{
     
     background-color: var(--back-color-header);
@@ -115,32 +160,13 @@
     text-align: left;
 }
 
-.iconosSociales{
-    
-    background-color: var(--back-color-header);
-    display: inline-flex;
-    
-    text-align: right;
-    
-    margin-left: 300px;
-    margin-top: 10px;
-}
+
 
 .body{
-    /* max-width: 100%;
-    margin-left: 0px;
-    padding: 0px;
-    /* margin-top: 170px; 
-    color: var(--font-color-menu);  */
-    background-color: var(--back-color-header);
-    /* background-color:  transparent;  
-    background-image: url('./images/fondopersonal.jpg'); */
-    /* box-shadow: 0 0 4px 3px burlywood; */
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-   
-}
+   background-color: var(--back-color-header);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
 
 /* Para la que viene de html*/
 #root {
@@ -150,6 +176,7 @@
     padding: 0px;
 }
 
+/******************     BODY    ****************************/
 /****************** Para Skills ****************************/
 
 .h1skill {
@@ -157,15 +184,13 @@
     font-size: 30px;
     margin-left: 10px;
     color: var(--font-color-h1);
-   
-   
- }
+  }
+  
 
 .divskill{
     display: flex;
     justify-content: left;
-    
-}
+  }
 
 .columnaskill{
    width: 20%;
@@ -177,13 +202,9 @@
 .cskills{
     width:80%;
     background-color:var(--back-color-header);
-    /* margin-left: 15px; */
    margin-top:5px;
    margin-right: 10px;
-    /* margin: 0px; */
  }
-
-
 
 .skills{
     text-align: right;
@@ -193,7 +214,6 @@
     font-family: var(--font-style-p);
     font-size: 10px;
     font-weight: bold;
-   
 }
 
 .vb {
@@ -332,9 +352,6 @@
     
 }
 
-
-
-
 /* Lado Izquierdo */
 .izquierda {
     height: 50vh;
@@ -347,7 +364,6 @@
    margin-left: 10px;
    color: var(--font-color-h1);
   
- 
 }
 .sec p {
     font-family: var(--font-style-p);
@@ -361,15 +377,13 @@
 
  .secdiv {
     padding: 15px;
-    
- }
+}
 
  .sec a{
     color: var(--font-color-h1);
 }
 
  .button {
-    
     border: 1px solid var(--color-over-button); 
     color: var(--font-color-menu);
     padding: 5px 11px;
@@ -382,8 +396,7 @@
     font-family: var(--font-style-modalPersonal);
     position: relative;
     z-index: 1;
-    
- }
+}
 
  .button::after{
     content: "";
@@ -404,7 +417,7 @@
     border-radius: 5px;
  }
 
-
+ /* Espacio en blanco */
  .espacio {
     border: none;
     padding: 5px 0px 0px 0px;
