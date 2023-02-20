@@ -14,8 +14,8 @@ function App() {
       </div>  */}
 
       {/* header  */}
-      <header id="header">
-        <div class="header">
+      <header id="header" >
+        <div class="header ">
           <div> {/*Para imagen */}
             <a href="#modalPersonal">
               <span title="Datos Personales">
@@ -72,7 +72,7 @@ function App() {
               </div>
             
           </div>
-        </div>
+         </div>
       </header>
       {/* End header */}
       {/* Body */}
