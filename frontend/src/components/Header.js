@@ -4,6 +4,7 @@ import fb from "../images/fb.png";
 import gh from "../images/gh.png";
 import ind from "../images/in.png";
 import "../personalstyle.css";
+import {HashLink} from "react-router-hash-link"
 
 export default function Header(){
     return (
@@ -32,10 +33,10 @@ export default function Header(){
       <nav>
         
           <ul class="menu">
-            <li>  <a href="#seccion-estudios">Preparación Profesional</a>  </li>
-            <li>  <a href="#seccion-empleos">Experiencia</a> </li>
-            <li>  <a href="#seccion-trans">Transversales </a> </li>
-            <li>  <a href="#seccion-pro">Proyectos</a> </li>
+            <li>  <HashLink to="/#seccion-estudios">Preparación Profesional</HashLink>  </li>
+            <li>  <HashLink to="/#seccion-empleos">Experiencia</HashLink> </li>
+            <li>  <HashLink to="/#seccion-trans">Transversales </HashLink> </li>
+            <li>  <HashLink to="/#seccion-pro">Proyectos</HashLink> </li>
           </ul>
        
       </nav>
