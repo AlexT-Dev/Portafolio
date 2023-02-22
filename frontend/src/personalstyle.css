@@ -118,7 +118,8 @@
 }
 
 .headerdivname {
-    padding: 10px;
+    padding-left: 5px;
+    padding-top: 5px;
     width: 500px;
 }
 
@@ -874,3 +875,299 @@
 }
 
 
+/************************** Para responsive ****************************/
+@media screen and (max-width: 360px) {
+
+/**********  Para Header   *************/
+
+.headerp {
+    margin-top: 5px ;
+    font-family: var(--font-style-p-header); 
+    color: var(--font-color-h1);
+    font-size: 12px;
+}
+
+.headerh4 {
+    margin-top: 5px;
+    font-family: var(--font-style-p);
+    color: var(--font-color-menu);
+    font-size: 9px;
+}
+
+.parrafoCabecera {
+    background-color: var(--back-color-header);
+    color:  var(--color-over-button);
+    text-align: left;
+    font-family: var(--font-style-modalPersonal);
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.headerdivname {
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 200px;
+}
+
+.headerdivmenu {
+   display: none;
+
+}
+.headerdivicons {
+    display: none;
+
+}
+
+    /****************** Para Skills ****************************/
+
+.h1skill {
+    font-family: var(--font-style-etiqueta);
+    font-size: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--font-color-h1);
+  }
+  
+
+.divskill{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    align-items: flex-start;
+
+  }
+
+.columnaskill{
+   width: 40%;
+   /* padding-top: 2px; */
+   text-align: left;
+   margin-right: 5px;
+   padding: 2px;
+   
+}
+
+.cskills{
+    width:100%;
+    /* background-color:var(--back-color-header); */
+   margin-top:5px;
+   margin-right: 5px;
+ }
+
+.skills{
+    text-align: right;
+    padding-right: 2px;
+    color:black;
+    font-weight: bold;
+    font-family: var(--font-style-p);
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.vb {
+    background-color: var(--color-over-button) ;
+    animation: fillvb 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvb {
+    0%{width: 0;}
+    100%{width: 40%;}
+}
+
+.cobol {
+    background-color: var(--color-over-button);
+    animation: fillcobol 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillcobol {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.java {
+    background-color: var(--color-over-button);
+    animation: filljava 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes filljava {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.njs {
+    background-color: var(--color-over-button);
+    animation: fillnjs 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillnjs {
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.css {
+    background-color: var(--color-over-button);
+    animation: fillcss 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+.html {
+    background-color: var(--color-over-button);
+    animation: fillhtml 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+
+.sql {
+    background-color: var(--color-over-button);
+    animation: fillsql 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillsql {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.ms {
+    background-color: var(--color-over-button);
+    animation: fillms 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillms {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.visio {
+    background-color: var(--color-over-button);
+    animation: fillvisio 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvisio {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+.project {
+    background-color: var(--color-over-button);
+    animation: fillpro 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillpro {
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+.vba {
+    background-color: var(--color-over-button);
+    animation: fillvba 2s forwards;
+    margin-left: 0px;
+}
+
+@keyframes fillvba {
+    0%{width: 0;}
+    100%{width: 50%;}
+}
+
+/* Lado Izquierdo */
+.izquierda {
+    height: 50vh;
+    width: 50%;
+}
+
+.sec h1 {
+   font-family: var(--font-style-etiqueta);
+   font-size: 15px;
+   margin-left: 10px;
+   
+   color: var(--font-color-h1);
+  
+}
+.sec p {
+    font-family: var(--font-style-p);
+    font-size: 9px;
+    margin-left: 10px;
+    color: var(--font-color-menu);
+    
+    padding-left: 1px;
+  
+ }
+
+ .secdiv {
+    padding: 15px;
+}
+
+ .sec a{
+    color: var(--font-color-h1);
+    
+}
+
+ .button {
+    border: 1px solid var(--color-over-button); 
+    color: var(--font-color-menu);
+    padding: 5px 11px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: var(--font-style-modalPersonal);
+    position: relative;
+    z-index: 1;
+   
+}
+
+ .button::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 100%;
+    background-color: var(--color-over-button);
+    z-index: -1;
+    transition: width 0.2s ease-in-out;
+    
+ }
+
+ .button:hover::after{
+    width: 105%;
+    border-radius: 5px;
+ }
+
+ /* Espacio en blanco */
+ .espacio {
+    border: none;
+    padding: 5px 0px 0px 0px;
+ }
+
+/* Lado Derecho */
+
+.secimg {
+    width: 50%;
+  height: 50vh;
+}
+
+.imgsize{ /* para tamaño de las imagenes*/
+    display: none;
+      
+}
+    
+}

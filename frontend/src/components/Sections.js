@@ -64,7 +64,7 @@ export default function Sections() {
 
           <div class="divskill">
             <div class="columnaskill">
-              <p>MySql y PostGreSql</p>
+              <p>MySql y PGSql</p>
             </div>
             <div class="cskills ">
               <div class="skills sql ">70%</div>
@@ -73,7 +73,7 @@ export default function Sections() {
 
           <div class="divskill">
             <div class="columnaskill">
-              <p>Microsoft Office</p>
+              <p>MS Office</p>
             </div>
             <div class="cskills ">
               <div class="skills ms ">70%</div>
@@ -153,7 +153,7 @@ export default function Sections() {
           <p>
             Tome una especialización sobre desarrollo WEB en Soy Henry, escuela
             en línea para sertificación como Full-Stack Dev.{" "}
-            <a href="https://www.soyhenry.com/" target="_blank">
+            <a href="https://www.soyhenry.com/" target="_blank" rel="noreferrer">
               Soy Henry
             </a>
           </p>
@@ -183,7 +183,10 @@ export default function Sections() {
           </p>
           <hr class="espacio"></hr>
           <p>
-            Más información en archivo adjunto.{" "}
+            Más información en archivo adjunto.
+           </p>
+            <hr class="espacio"></hr>
+           
             <a
               class="button"
               href="/CV_Alejandro_completo.pdf"
@@ -191,7 +194,7 @@ export default function Sections() {
             >
               Curriculum Vitae
             </a>
-          </p>
+         
           <hr class="espacio"></hr>
 
           <a class="button" href="#header">

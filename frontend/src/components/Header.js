@@ -23,7 +23,7 @@ export default function Header(){
         <h4 class="headerh4">Back End Dev</h4>
       </div>
       <div>
-      <p class="parrafoCabecera">
+      <p class="parrafoCabecera headerdivname">
         WEb Develop| Aplicaciones de Escritorio | Java EE | 
         HTML | CSS | JavaScript | React | Node js | Office
       </p>
