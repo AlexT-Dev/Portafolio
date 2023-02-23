@@ -9,7 +9,7 @@ export default function Footer(){
     return (
         <div class="footer">
         <div class="divfooter"> {/* Para Datos de la página*/}
-          <p class="parrafopie">Ver. 2.1.1</p>
+          <p class="parrafopie">Ver. 2.1.2</p>
           <p class="parrafopie">Ult. Act. 21/Feb/2023</p>
         </div>
         <div class="headerdivicons divfooter"> {/* Para iconos */}
