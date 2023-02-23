@@ -44,7 +44,7 @@ function App() {
               <p class="encDato pModal"> Alejandro Téllez Aguilar</p>
               <label class="encDato labelModal">Domicilio: </label>
               <p class="encDato pModal">
-                {" "}
+                
                 Justo Sierra 221, Colima, Col., México, C. P. 28010
               </p>
               <label class="encDato labelModal">Teléfono: </label>

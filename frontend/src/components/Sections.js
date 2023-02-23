@@ -13,7 +13,7 @@ export default function Sections() {
               <p>Visual Basic</p>
             </div>
             <div class="cskills  ">
-              <div class="skills vb ">40%</div>
+              <div class="skills vb ">✔</div>
             </div>
           </div>
 
@@ -22,7 +22,7 @@ export default function Sections() {
               <p>Cobol</p>
             </div>
             <div class="cskills ">
-              <div class="skills cobol ">30%</div>
+              <div class="skills cobol ">✔</div>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function Sections() {
               <p>Java EE Edition</p>
             </div>
             <div class="cskills ">
-              <div class="skills java ">30%</div>
+              <div class="skills java ">✔</div>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ export default function Sections() {
               <p>Node JS</p>
             </div>
             <div class="cskills ">
-              <div class="skills njs ">30%</div>
+              <div class="skills njs ">✔</div>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export default function Sections() {
               <p>CSS</p>
             </div>
             <div class="cskills ">
-              <div class="skills css ">50%</div>
+              <div class="skills css ">✔</div>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function Sections() {
               <p>HTML</p>
             </div>
             <div class="cskills ">
-              <div class="skills html ">60%</div>
+              <div class="skills html ">✔</div>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default function Sections() {
               <p>MySql y PGSql</p>
             </div>
             <div class="cskills ">
-              <div class="skills sql ">70%</div>
+              <div class="skills sql ">✔</div>
             </div>
           </div>
 
@@ -76,7 +76,7 @@ export default function Sections() {
               <p>MS Office</p>
             </div>
             <div class="cskills ">
-              <div class="skills ms ">70%</div>
+              <div class="skills ms ">✔</div>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Sections() {
               <p>UML</p>
             </div>
             <div class="cskills  ">
-              <div class="skills vb ">40%</div>
+              <div class="skills vb ">✔</div>
             </div>
           </div>
 
@@ -97,7 +97,7 @@ export default function Sections() {
               <p>Visio</p>
             </div>
             <div class="cskills ">
-              <div class="skills visio ">70%</div>
+              <div class="skills visio ">✔</div>
             </div>
           </div>
 
@@ -106,7 +106,7 @@ export default function Sections() {
               <p>MS Project</p>
             </div>
             <div class="cskills ">
-              <div class="skills project ">55%</div>
+              <div class="skills project ">✔</div>
             </div>
           </div>
 
@@ -115,7 +115,7 @@ export default function Sections() {
               <p>MS Access</p>
             </div>
             <div class="cskills ">
-              <div class="skills visio ">70%</div>
+              <div class="skills visio ">✔</div>
             </div>
           </div>
 
@@ -124,7 +124,7 @@ export default function Sections() {
               <p>MS VBA</p>
             </div>
             <div class="cskills ">
-              <div class="skills vba ">50%</div>
+              <div class="skills vba ">✔</div>
             </div>
           </div>
         </div>
@@ -137,7 +137,7 @@ export default function Sections() {
           <h1 class="h1">Preparación profesional</h1>
           <p>
             Mis estudios en la programación iniciaron a los 17 años en una
-            escuela rudimentaria que contaba con lo escencial, teclados
+            escuela rudimentaria que contaba con lo esencial, teclados
             Commodore 16 con 16 KB de memoria y lenguaje Basic.
           </p>
           <p>
@@ -152,7 +152,7 @@ export default function Sections() {
           </p>
           <p>
             Tome una especialización sobre desarrollo WEB en Soy Henry, escuela
-            en línea para sertificación como Full-Stack Dev.{" "}
+            en línea para Certificación como Full-Stack Dev.{" "}
             <a href="https://www.soyhenry.com/" target="_blank" rel="noreferrer">
               Soy Henry
             </a>
