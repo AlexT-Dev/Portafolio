@@ -12,7 +12,7 @@ export default function Footer(){
           <p class="parrafopie">Ver. 2.1.2</p>
           <p class="parrafopie">Ult. Act. 21/Feb/2023</p>
         </div>
-        <div class="headerdivicons divfooter"> {/* Para iconos */}
+        <div class="footerdivicons divfooter"> {/* Para iconos */}
          <div>
           <a href="https://www.facebook.com/profile.php?id=100008755599666" target="_blank" rel="noreferrer" >
             <span title="Facebook">  <img class="fotoReduce" src={fb} alt="facebook" />  </span>

@@ -1183,7 +1183,7 @@
     margin: 2px;
 }
 
-.headerdivicons {
+.footerdivicons {
     padding: 0px;
    
     display: inline-flex;
@@ -1210,7 +1210,7 @@
 /****************** Para Modal ***********/
 
 .containerModal {
-    width: 230px;
+    width: 220px;
     height: 300px;
     position: fixed;
     top: 50%;
